@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# 🚀 Aspyr Learn Flow
 
-## Project info
+**Aspyr Learn Flow** is a next-generation mini-course dashboard that empowers learners to explore, track, and complete courses in a beautifully designed, interactive interface.  
+Built using **React + TypeScript + Node.js + PostgreSQL**, it delivers a smooth, modern, and responsive user experience.
 
-**URL**: https://lovable.dev/projects/60b7eff2-8db5-4bf5-9a74-d280d9fcebd5
+---
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- 🔐 **User Authentication** — Register and login with secure password hashing  
+- 📚 **Course Dashboard** — View available courses and their modules  
+- ✅ **Progress Tracking** — Mark modules as completed and view progress bars  
+- 📈 **Course Completion** — Shows live completion percentage for each course  
+- ⚡ **“Mark All as Completed”** option  
+- 🎯 **Filter Courses** by completion status  
+- 💅 **Responsive UI** inspired by modern Behance dashboard designs  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/60b7eff2-8db5-4bf5-9a74-d280d9fcebd5) and start prompting.
+## 🧠 Objective
 
-Changes made via Lovable will be committed automatically to this repo.
+To demonstrate a practical implementation of a **learning platform** using a modern full-stack approach.  
+The goal is to evaluate capabilities in frontend, backend, database, and UI integration — all within a clean and production-ready environment.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+### 🖥️ Frontend
+- React (TypeScript)
 - Tailwind CSS
+- Vite
+- Shadcn UI Components
 
-## How can I deploy this project?
+### ⚙️ Backend
+- Node.js
+- Express.js
+- PostgreSQL
 
-Simply open [Lovable](https://lovable.dev/projects/60b7eff2-8db5-4bf5-9a74-d280d9fcebd5) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🎨 Color Palette
+Inspired by Gen-Z aesthetic learning dashboards:
+#2E073F
+#7A1CAC
+#FFF9BF
+#CB9DF0
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Folder Structure
+aspyr-learn-flow/
+├── backend/
+│ ├── server.js
+│ ├── routes/
+│ └── models/
+├── frontend/
+│ ├── src/
+│ ├── components/
+│ └── pages/
+└── README.md
+
+
+---
+
+## 🧩 How to Run Locally
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/shitalkshirsagar05/aspyr-learn-flow.git
+
+# 2️⃣ Navigate to the project directory
+cd aspyr-learn-flow
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
