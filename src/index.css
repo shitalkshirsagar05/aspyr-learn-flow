@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Aspyr Brand Colors - Gen-Z Dark Purple Theme */
+    --background: 288 91% 13%; /* Dark Purple #2E073F */
+    --foreground: 60 100% 87%; /* Soft Yellow #FFF9BF */
+
+    --card: 288 80% 18%;
+    --card-foreground: 60 100% 87%;
+
+    --popover: 288 85% 15%;
+    --popover-foreground: 60 100% 87%;
+
+    --primary: 286 76% 39%; /* Vivid Violet #7A1CAC */
+    --primary-foreground: 60 100% 87%;
+
+    --secondary: 277 67% 78%; /* Lilac Glow #CB9DF0 */
+    --secondary-foreground: 288 91% 13%;
+
+    --muted: 288 60% 25%;
+    --muted-foreground: 277 50% 75%;
+
+    --accent: 60 100% 87%; /* Soft Yellow */
+    --accent-foreground: 288 91% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 100% 87%;
+
+    --border: 286 50% 30%;
+    --input: 286 40% 25%;
+    --ring: 277 67% 78%;
+
+    --radius: 1rem;
+
+    /* Sidebar tokens */
+    --sidebar-background: 288 85% 15%;
+    --sidebar-foreground: 60 100% 87%;
+    --sidebar-primary: 286 76% 39%;
+    --sidebar-primary-foreground: 60 100% 87%;
+    --sidebar-accent: 288 70% 25%;
+    --sidebar-accent-foreground: 277 67% 78%;
+    --sidebar-border: 286 50% 30%;
+    --sidebar-ring: 277 67% 78%;
+
+    /* Custom gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(286 76% 39%), hsl(277 67% 78%));
+    --gradient-card: linear-gradient(145deg, hsl(288 80% 18%), hsl(288 70% 22%));
+    --gradient-glow: linear-gradient(180deg, hsl(277 67% 78% / 0.1), transparent);
+
+    /* Shadows with glow */
+    --shadow-glow: 0 0 40px hsl(277 67% 78% / 0.3);
+    --shadow-card: 0 8px 32px hsl(288 91% 8% / 0.4);
+    --shadow-elevated: 0 20px 60px hsl(286 76% 39% / 0.2);
+  }
+
+  .dark {
+    /* Already dark by default, keeping for compatibility */
+    --background: 288 91% 13%;
+    --foreground: 60 100% 87%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
